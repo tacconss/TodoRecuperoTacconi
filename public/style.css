@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, black, rgb(0, 0, 0));
+  }
+  
+  .container{
+    outline: yellow;
+    text-align: center;
+    justify-content: left;
+    position: left;
+    left:70%;
+  }
+  .done{
+    background-color: green !important;
+  }
+  .pulsantiConferma{
+    margin-left: 5px;
+    margin-right: 5px;
+    border:1px solid;
+    border-radius: 10px;
+    background-color: green;
+    text-align: center;
+    color: white;
+  }
+  .pulsantiElimina{
+    margin-left: 5px;
+    margin-right: 5px;
+    border:1px solid;
+    border-radius: 10px;
+    background-color: red;
+    text-align: center;
+    color: white;
+  } 
+  ul li{
+    list-style-type: disc;
+    color: white;
+  }
+
+  #submit{
+    background-color: rgb(61, 27, 27) !important;
+    border-color: rgb(43, 26, 26);
+
+  }
