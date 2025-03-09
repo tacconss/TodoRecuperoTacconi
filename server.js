@@ -56,7 +56,6 @@ app.post("/todo/add", async (req, res) => {
 });
 
 
-
 app.get("/todo", async (req, res) => {
   try {
     const todos = await executeQuery("SELECT * FROM todo");
@@ -73,7 +72,6 @@ app.get("/todo", async (req, res) => {
     res.status(500).json({ error: "Errore nel recupero dei dati" });
   }
 });
-
 
 
 app.put("/todo/complete", async (req, res) => {
@@ -145,6 +143,7 @@ const insert = (todo) => {
   return executeQuery(sql);
 
 }
+
 const select = () => {
 
   const sql = `
